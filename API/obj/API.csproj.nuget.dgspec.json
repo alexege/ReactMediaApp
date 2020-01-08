@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\API\\API.csproj": {}
+    "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\API\\API.csproj": {
+    "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\API\\API.csproj",
+        "projectPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\API\\API.csproj",
         "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\API\\obj\\",
+        "outputPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\Application.csproj"
+              "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\Application.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\Application.csproj": {
+    "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\Application.csproj",
+        "projectPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\obj\\",
+        "outputPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -98,11 +98,11 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj"
+              "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\Persistence.csproj"
+              "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\Persistence.csproj": {
+                "projectPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -115,6 +115,12 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -134,14 +140,14 @@
         }
       }
     },
-    "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj": {
+    "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -189,14 +195,14 @@
         }
       }
     },
-    "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\Persistence.csproj": {
+    "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\Persistence.csproj",
+        "projectPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\obj\\",
+        "outputPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -215,8 +221,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj"
+              "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\alexe\\Documents\\CodingDojo\\Projects\\React\\ReactMedia\\Domain\\Domain.csproj"
               }
             }
           }
